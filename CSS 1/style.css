@@ -1,42 +1,40 @@
-* {
-    font-family: 'Courier New', Courier, monospace;
-    
+div {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color:green;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
 }
 
 
-ul li a , span button {
-    color:rgb(226, 43, 104);
+#static {
+    background-color: yellow;
+    position:static;
+    top:100px;
+    left:100px;
 }
 
-main p a  {
-  color: rgb(17, 0, 255);
+#relative {
+    background-color: yellow;
+    position:relative;
+    top:100px;
+    left:100px;
 }
 
-p + h3 {
-    text-decoration: underline;
+#absolute {
+    background-color: yellow;
+    position:absolute;
+    top:100px;
+    left:100px;
 }
 
-.upvote + button {
-    background-color: green;
+#fixed {
+    background-color: yellow;
+    position:fixed;
+    top:100px;
+    left:100px;
 }
 
-span>button {
-    color:brown;
-}
-
-div> button {
-    color: greenyellow;
-}
-
-input[type="text"] {
-    color: blue;
-}
-
-input[type="password"] {
-    color:green;
-}
-
-input[type="placeholder"] {
-    color:chartreuse;
-}
 
