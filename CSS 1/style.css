@@ -1,0 +1,42 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+ul li a , span button {
+    color:rgb(226, 43, 104);
+}
+
+main p a  {
+  color: rgb(17, 0, 255);
+}
+
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: green;
+}
+
+span>button {
+    color:brown;
+}
+
+div> button {
+    color: greenyellow;
+}
+
+input[type="text"] {
+    color: blue;
+}
+
+input[type="password"] {
+    color:green;
+}
+
+input[type="placeholder"] {
+    color:chartreuse;
+}
+
